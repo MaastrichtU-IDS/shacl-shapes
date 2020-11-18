@@ -51,3 +51,7 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/rd
 [Schímatos](https://schimatos.github.io): a SHACL-based Web-Form Generator for Knowledge Graph Editing (RS). 
 
 Schímatos is a form-based Web application with which users can create and edit data against SHACL constraints. If you are interested in an overview of how the tool works you can check out this video https://youtu.be/PvnJGnB7hOU (we have an abridged version as part of our talk on Wednesday).You can also try the tool for yourself at [https://schimatos.github.io](https://schimatos.github.io/) and visit our GitHub at https://github.com/schimatos/schimatos.org
+
+### Validate RDF with SHACL Shapes
+
+To validate RDF against SHACL Shapes and get a human-readable of the issues: https://rdfshape.weso.es/shaclValidate 

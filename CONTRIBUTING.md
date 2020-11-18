@@ -10,7 +10,7 @@ To contribute:
 
 ```bash
 git clone https://github.com/MaastrichtU-IDS/shacl-shapes.git
-cd projects
+cd shacl-shapes
 ```
 
 2. Create a new branch from the `main` branch and add your changes to this branch.
