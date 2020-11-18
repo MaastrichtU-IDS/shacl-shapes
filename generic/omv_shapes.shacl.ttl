@@ -15,7 +15,7 @@ prefix dct:  <http://purl.org/dc/terms/>
  	sh:nodeKind sh:IRI ;
 	sh:property [
       sh:path  omv:title ; 
-      sh:minCount 0; 
+      sh:minCount 1; 
       sh:maxCount 1; 
       sh:datatype xsd:string ;
   	] ;
@@ -26,7 +26,7 @@ prefix dct:  <http://purl.org/dc/terms/>
 
    sh:property [
       sh:path  omv:description ; 
-      sh:minCount 0; 
+      sh:minCount 1; 
       sh:maxCount 1; 
       sh:datatype  xsd:string ;
   	];
@@ -34,18 +34,16 @@ prefix dct:  <http://purl.org/dc/terms/>
 
 	sh:property [
       sh:path  omv:creationDate ; 
-      sh:minCount 0; 
+      sh:minCount 1; 
       sh:maxCount 1; 
       sh:datatype xsd:date ;
   	] ;
 
 	sh:property [
       sh:path   dct:license ; 
-      sh:minCount 0; 
+      sh:minCount 1; 
       sh:maxCount 1; 
       sh:nodeKind sh:IRI ;
   	] ;
-
-
 .
 
