@@ -10,22 +10,25 @@ prefix dc:  <http://purl.org/dc/elements/1.1>
 prefix dct:  <http://purl.org/dc/terms/>
   
 :Ontology a sh:NodeShape ;
-    rdfs:label "Ontology shape using OMV and DublinCore" ;
-	sh:targetClass owl:Ontology ;
- 	sh:nodeKind sh:IRI ;
+    rdfs:label "Ontology shape using DublinCore" ;
+    sh:targetClass owl:Ontology ;
+    sh:nodeKind sh:IRI ;
 	sh:property [
-      sh:path  omv:title ; 
+      sh:description "You need to provide at least one title value" ;  
+      sh:path  dct:title ; 
       sh:minCount 1; 
-      sh:maxCount 1; 
       sh:datatype xsd:string ;
   	] ;
 	sh:property [
-     sh:path  omv:hasContributor ; 
+     sh:description "You need to provide at least one creator value" ;  
+     sh:path  dct:creator ;
+      sh:minCount 1; 
      sh:datatype xsd:string ;
   	];
 
    sh:property [
-      sh:path  omv:description ; 
+      sh:description "You need to provide a description" ;
+      sh:path  dct:description ; 
       sh:minCount 1; 
       sh:maxCount 1; 
       sh:datatype  xsd:string ;
@@ -33,17 +36,19 @@ prefix dct:  <http://purl.org/dc/terms/>
 
 
 	sh:property [
-      sh:path  omv:creationDate ; 
+      sh:description "You need to provide at least one publisher value" ;
+      sh:path  dct:publisher ; 
       sh:minCount 1; 
-      sh:maxCount 1; 
-      sh:datatype xsd:date ;
+      sh:nodeKind sh:NodeURIOrLiteral;
   	] ;
 
 	sh:property [
+      sh:description "You need to provide at least one license value" ;
       sh:path   dct:license ; 
       sh:minCount 1; 
-      sh:maxCount 1; 
       sh:nodeKind sh:IRI ;
-  	] ;
+  	]
 .
+
+
 
