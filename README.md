@@ -52,6 +52,10 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/rd
 
 Schímatos is a form-based Web application with which users can create and edit data against SHACL constraints. If you are interested in an overview of how the tool works you can check out this video https://youtu.be/PvnJGnB7hOU (we have an abridged version as part of our talk on Wednesday).You can also try the tool for yourself at [https://schimatos.github.io](https://schimatos.github.io/) and visit our GitHub at https://github.com/schimatos/schimatos.org
 
+### Make modular shapes
+[LODE](https://github.com/dbpedia/archivo/blob/master/shacl-library/LODE.ttl) shows how to make your shapes more modular.
+
+
 ### Validate RDF with SHACL Shapes
 
 To validate RDF against SHACL Shapes and get a human-readable of the issues: https://rdfshape.weso.es/shaclValidate 
