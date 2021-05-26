@@ -1,0 +1,121 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:genid1 <http://schema.org/@wizardQuestions> _:genid2 .
+_:genid1 <http://schema.org/citation> _:genid3 .
+_:genid1 <http://schema.org/contributor> _:genid4 .
+_:genid1 <http://schema.org/creator> _:genid5 .
+_:genid1 <http://schema.org/dateCreated> "2019-09-14"^^<http://schema.org/Date> .
+_:genid1 <http://schema.org/datePublished> "2020-07-01"^^<http://schema.org/Date> .
+_:genid1 <http://schema.org/description> "results from a study to analyse how closely the textual similarity of ECJ cases resembles the citation network of the cases."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/distribution> _:genid6 .
+_:genid1 <http://schema.org/encodingFormat> "CSV"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/inLanguage> _:genid7 .
+_:genid1 <http://schema.org/isBasedOn> _:genid8 .
+_:genid1 <http://schema.org/isBasedOn> _:genid9 .
+_:genid1 <http://schema.org/keywords> "case law"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/keywords> "court decisions"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/keywords> "text similarity"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/keywords> "network analysis"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/license> <https://www.gnu.org/licenses/agpl-3.0.txt> .
+_:genid1 <http://schema.org/name> "ECJ case law text similarity analysis"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/publisher> _:genid10 .
+_:genid1 <http://schema.org/temporalCoverage> "2019-09-14/2020-07-01"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/url> <https://doi.org/10.5281/zenodo.4228652> .
+_:genid1 <http://schema.org/version> "v2.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/affiliation> "This person is affiliated to or employed by:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/applicationCategory> "Indicate type of software e.g. Python script or Java GUI application:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/citation> "Is there an academic publication which describes or centrally makes use of this dataset?"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/contentSize> "How large is the download file size e.g. 128KB, 54MB, 1.5GB?"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/contributor> "Other persons who contributed to, or co-authored, the dataset:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/creator> "Provide the details of the person who created, or initiated, the creation of this work:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/dateCreated> "On what date was the dataset created? YYYY-MM-DD"^^<http://schema.org/Date> .
+_:genid2 <http://schema.org/datePublished> "On what date was the dataset published? YYYY-MM-DD"^^<http://schema.org/Date> .
+_:genid2 <http://schema.org/description> "Give a short description of the content:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/distribution> "Supply a direct download link for this dataset:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/encodingFormat> "What is the file format of this data?"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/frequency> "How often does a new version get published for this dataset? e.g. daily, weekly, monthly"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/image> <Provide a link (URL) to a profile photo of the author of the dataset:> .
+_:genid2 <http://schema.org/inLanguage> "What language is used in the description of this dataset? Use ISO 2 language code e.g. EN for English"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/isBasedOn> <http://njh.me/Was this dataset generated with the aid of or using a piece of software?> .
+_:genid2 <http://schema.org/keywords> "Provide keywords describing the content in this dataset:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/license> <Link to the full text of the terms of use (license) for this dataset:> .
+_:genid2 <http://schema.org/logo> <Link to an image depicting the logo of this organisation:> .
+_:genid2 <http://schema.org/name> "Provide the name of this entity:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/publisher> "Person, or organization, who published this work:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/sameAs> <Provide a Digital Object Identifier (DOI) for this publication:> .
+_:genid2 <http://schema.org/temporalCoverage> "What is the creation or publishing date range for the documents or contents of this dataset? Use https://en.wikipedia.org/wiki/ISO_8601#Time_intervals format - e.g. 2007-03-01/2008-05-11:"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://schema.org/url> <Link to the website or homepage:> .
+_:genid2 <http://schema.org/version> "What is the version number for this dataset? e.g. 1.1.1 or v1.2"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:genid3 <http://schema.org/creator> _:genid11 .
+_:genid3 <http://schema.org/creator> _:genid12 .
+_:genid3 <http://schema.org/datePublished> "2019-12-10"^^<http://schema.org/Date> .
+_:genid3 <http://schema.org/name> "Similarity and Relevance of Court Decisions: A Computational Study on CJEU Cases"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://schema.org/publisher> _:genid13 .
+_:genid3 <http://schema.org/sameAs> "https://doi.org/10.3233/FAIA190307"^^<http://schema.org/URL> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:genid11 <http://schema.org/name> "Kody Moodley"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:genid12 <http://schema.org/name> "Michel Dumontier"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:genid13 <http://schema.org/name> "IOS press"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid13 <http://schema.org/url> "https://www.iospress.nl"^^<http://schema.org/URL> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:genid4 <http://schema.org/affiliation> _:genid14 .
+_:genid4 <http://schema.org/email> "p.hernandezserrano@maastrichtuniversity.nl"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://schema.org/familyName> "Hernandez Serrano"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://schema.org/givenName> "Pedro"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://schema.org/image> <https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/p.hernandezserrano/p.hernandezserrano_PP%20%287%20of%2013%29.jpg?itok=IUdreoIw&timestamp=1610395201> .
+_:genid4 <http://schema.org/jobTitle> "Data Scientist"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:genid14 <http://schema.org/logo> _:genid15 .
+_:genid14 <http://schema.org/name> "Institute of Data Science"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid14 <http://schema.org/url> "https://www.maastrichtuniversity.nl/research/institute-data-science"^^<http://schema.org/URL> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+_:genid15 <http://schema.org/contentUrl> <https://avatars.githubusercontent.com/u/36262526?s=280&v=4> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:genid5 <http://schema.org/affiliation> _:genid16 .
+_:genid5 <http://schema.org/email> "kody.moodley@maastrichtuniversity.nl"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://schema.org/familyName> "Moodley"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://schema.org/givenName> "Kody"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://schema.org/image> <https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1583505301> .
+_:genid5 <http://schema.org/jobTitle> "Postdoctoral researcher"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://schema.org/name> "concat @givenName @familyName"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:genid16 <http://schema.org/logo> _:genid17 .
+_:genid16 <http://schema.org/name> "Maastricht Law & Tech Lab"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid16 <http://schema.org/url> "https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"^^<http://schema.org/URL> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+_:genid17 <http://schema.org/contentUrl> <https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataDownload> .
+_:genid6 <http://schema.org/contentSize> "1.1MB"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid6 <http://schema.org/contentUrl> "https://zenodo.org/record/4228652/files/docona_cjeu_results_2018_v2_html.zip?download=1"^^<http://schema.org/URL> .
+_:genid6 <http://schema.org/encodingFormat> "application/zip"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
+_:genid7 <http://schema.org/alternateName> "EN"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid7 <http://schema.org/name> "EN"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
+_:genid8 <http://schema.org/applicationCategory> "Python script"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://schema.org/description> "DoConA (Document Content and Citation Analysis Pipeline) is an open source, configurable and extensible Python tool to analyse the level of agreement between the citation network of a set of textual documents and the textual similarity of these documents."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://schema.org/name> "docona"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://schema.org/operatingSystem> "cross-platform"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://schema.org/url> "https://github.com/MaastrichtU-IDS/docona"^^<http://schema.org/URL> .
+_:genid8 <http://schema.org/version> "1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:genid9 <http://schema.org/description> "Citation network and full text documents of each judgement by the Court of Justice of the European Union that was published publicly on the EUR-LEX website (https://eur-lex.europa.eu/homepage.html) up until December 2018"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid9 <http://schema.org/name> "ECJ case law and citation network"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid9 <http://schema.org/url> "https://doi.org/10.5281/zenodo.3926736"^^<http://schema.org/URL> .
+_:genid9 <http://schema.org/version> "2.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:genid10 <http://schema.org/affiliation> _:genid18 .
+_:genid10 <http://schema.org/email> "kody.moodley@maastrichtuniversity.nl"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://schema.org/familyName> "Moodley"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://schema.org/givenName> "Kody"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://schema.org/image> <https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1583505301> .
+_:genid10 <http://schema.org/jobTitle> "Postdoctoral researcher"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://schema.org/name> "Kody Moodley"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:genid18 <http://schema.org/logo> _:genid19 .
+_:genid18 <http://schema.org/name> "Maastricht Law & Tech Lab"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid18 <http://schema.org/url> "https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"^^<http://schema.org/URL> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+_:genid19 <http://schema.org/contentUrl> <https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF> .
