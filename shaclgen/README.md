@@ -1,5 +1,5 @@
 
-https://github.com/uwlib-cams/shaclgen
+Generate SHACL shape from RDF instances using [SHACLGEN](https://github.com/uwlib-cams/shaclgen)
 
 Install: 
 
@@ -10,5 +10,211 @@ pip install shaclgen
 Run:
 
 ```bash
-shaclgen dataset.nt
+shaclgen dataset.ttl -ns https://w3id.org/um/fair-metadata fairmeta
 ```
+
+Resulting SHACL shapes for example `schema:Dataset` in `dataset.ttl`:
+
+```turtle
+@prefix fairmeta: <https://w3id.org/um/fair-metadata#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+fairmeta:schema_CreativeWork a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property fairmeta:schema_creator,
+        fairmeta:schema_datePublished,
+        fairmeta:schema_description,
+        fairmeta:schema_name,
+        fairmeta:schema_publisher,
+        fairmeta:schema_sameAs,
+        fairmeta:schema_url,
+        fairmeta:schema_version ;
+    sh:targetClass schema:CreativeWork .
+
+fairmeta:schema_DataDownload a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property fairmeta:schema_contentSize,
+        fairmeta:schema_contentUrl,
+        fairmeta:schema_encodingFormat ;
+    sh:targetClass schema:DataDownload .
+
+fairmeta:schema_Dataset a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property fairmeta:schema_citation,
+        fairmeta:schema_contributor,
+        fairmeta:schema_creator,
+        fairmeta:schema_dateCreated,
+        fairmeta:schema_datePublished,
+        fairmeta:schema_description,
+        fairmeta:schema_distribution,
+        fairmeta:schema_encodingFormat,
+        fairmeta:schema_inLanguage,
+        fairmeta:schema_isBasedOn,
+        fairmeta:schema_keywords,
+        fairmeta:schema_license,
+        fairmeta:schema_name,
+        fairmeta:schema_publisher,
+        fairmeta:schema_temporalCoverage,
+        fairmeta:schema_url,
+        fairmeta:schema_version ;
+    sh:targetClass schema:Dataset .
+
+fairmeta:schema_ImageObject a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property fairmeta:schema_contentUrl ;
+    sh:targetClass schema:ImageObject .
+
+fairmeta:schema_Language a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property fairmeta:schema_alternateName,
+        fairmeta:schema_name ;
+    sh:targetClass schema:Language .
+
+fairmeta:schema_Organization a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property fairmeta:schema_logo,
+        fairmeta:schema_name,
+        fairmeta:schema_url ;
+    sh:targetClass schema:Organization .
+
+fairmeta:schema_Person a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property fairmeta:schema_affiliation,
+        fairmeta:schema_email,
+        fairmeta:schema_familyName,
+        fairmeta:schema_givenName,
+        fairmeta:schema_image,
+        fairmeta:schema_jobTitle,
+        fairmeta:schema_name ;
+    sh:targetClass schema:Person .
+
+fairmeta:schema_SoftwareApplication a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property fairmeta:schema_applicationCategory,
+        fairmeta:schema_description,
+        fairmeta:schema_name,
+        fairmeta:schema_operatingSystem,
+        fairmeta:schema_url,
+        fairmeta:schema_version ;
+    sh:targetClass schema:SoftwareApplication .
+
+fairmeta:schema_affiliation a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:affiliation .
+
+fairmeta:schema_alternateName a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:alternateName .
+
+fairmeta:schema_applicationCategory a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:applicationCategory .
+
+fairmeta:schema_citation a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:citation .
+
+fairmeta:schema_contentSize a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:contentSize .
+
+fairmeta:schema_contributor a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:contributor .
+
+fairmeta:schema_dateCreated a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:dateCreated .
+
+fairmeta:schema_distribution a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:distribution .
+
+fairmeta:schema_email a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:email .
+
+fairmeta:schema_familyName a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:familyName .
+
+fairmeta:schema_givenName a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:givenName .
+
+fairmeta:schema_image a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path schema:image .
+
+fairmeta:schema_inLanguage a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:inLanguage .
+
+fairmeta:schema_isBasedOn a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:isBasedOn .
+
+fairmeta:schema_jobTitle a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:jobTitle .
+
+fairmeta:schema_keywords a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:keywords .
+
+fairmeta:schema_license a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path schema:license .
+
+fairmeta:schema_logo a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:logo .
+
+fairmeta:schema_operatingSystem a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:operatingSystem .
+
+fairmeta:schema_sameAs a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:sameAs .
+
+fairmeta:schema_temporalCoverage a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:temporalCoverage .
+
+fairmeta:schema_contentUrl a sh:PropertyShape ;
+    sh:path schema:contentUrl .
+
+fairmeta:schema_creator a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:creator .
+
+fairmeta:schema_datePublished a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:datePublished .
+
+fairmeta:schema_encodingFormat a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:encodingFormat .
+
+fairmeta:schema_publisher a sh:PropertyShape ;
+    sh:nodeKind sh:BlankNode ;
+    sh:path schema:publisher .
+
+fairmeta:schema_description a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:description .
+
+fairmeta:schema_version a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:version .
+
+fairmeta:schema_url a sh:PropertyShape ;
+    sh:path schema:url .
+
+fairmeta:schema_name a sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:name .
+```
+

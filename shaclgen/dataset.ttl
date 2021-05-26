@@ -1,0 +1,112 @@
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[]
+  a schema:Dataset ;
+  schema:citation [
+    a schema:CreativeWork ;
+    schema:creator [
+      a schema:Person ;
+      schema:name "Kody Moodley"^^xsd:string
+    ], [
+      a schema:Person ;
+      schema:name "Michel Dumontier"^^xsd:string
+    ] ;
+    schema:datePublished "2019-12-10"^^schema:Date ;
+    schema:name "Similarity and Relevance of Court Decisions: A Computational Study on CJEU Cases"^^xsd:string ;
+    schema:publisher [
+      a schema:Organization ;
+      schema:name "IOS press"^^xsd:string ;
+      schema:url "https://www.iospress.nl"^^schema:URL
+    ] ;
+    schema:sameAs "https://doi.org/10.3233/FAIA190307"^^schema:URL
+  ] ;
+  schema:contributor [
+    a schema:Person ;
+    schema:affiliation [
+      a schema:Organization ;
+      schema:logo [
+        a schema:ImageObject ;
+        schema:contentUrl <https://avatars.githubusercontent.com/u/36262526?s=280&v=4>
+      ] ;
+      schema:name "Institute of Data Science"^^xsd:string ;
+      schema:url "https://www.maastrichtuniversity.nl/research/institute-data-science"^^schema:URL
+    ] ;
+    schema:email "p.hernandezserrano@maastrichtuniversity.nl"^^xsd:string ;
+    schema:familyName "Hernandez Serrano"^^xsd:string ;
+    schema:givenName "Pedro"^^xsd:string ;
+    schema:image <https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/p.hernandezserrano/p.hernandezserrano_PP%20%287%20of%2013%29.jpg?itok=IUdreoIw&timestamp=1610395201> ;
+    schema:jobTitle "Data Scientist"^^xsd:string
+  ] ;
+  schema:creator [
+    a schema:Person ;
+    schema:affiliation [
+      a schema:Organization ;
+      schema:logo [
+        a schema:ImageObject ;
+        schema:contentUrl <https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF>
+      ] ;
+      schema:name "Maastricht Law & Tech Lab"^^xsd:string ;
+      schema:url "https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"^^schema:URL
+    ] ;
+    schema:email "kody.moodley@maastrichtuniversity.nl"^^xsd:string ;
+    schema:familyName "Moodley"^^xsd:string ;
+    schema:givenName "Kody"^^xsd:string ;
+    schema:image <https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1583505301> ;
+    schema:jobTitle "Postdoctoral researcher"^^xsd:string ;
+    schema:name "concat @givenName @familyName"^^xsd:string
+  ] ;
+  schema:dateCreated "2019-09-14"^^schema:Date ;
+  schema:datePublished "2020-07-01"^^schema:Date ;
+  schema:description "results from a study to analyse how closely the textual similarity of ECJ cases resembles the citation network of the cases."^^xsd:string ;
+  schema:distribution [
+    a schema:DataDownload ;
+    schema:contentSize "1.1MB"^^xsd:string ;
+    schema:contentUrl "https://zenodo.org/record/4228652/files/docona_cjeu_results_2018_v2_html.zip?download=1"^^schema:URL ;
+    schema:encodingFormat "application/zip"^^xsd:string
+  ] ;
+  schema:encodingFormat "CSV"^^xsd:string ;
+  schema:inLanguage [
+    a schema:Language ;
+    schema:alternateName "EN"^^xsd:string ;
+    schema:name "EN"^^xsd:string
+  ] ;
+  schema:isBasedOn [
+    a schema:SoftwareApplication ;
+    schema:applicationCategory "Python script"^^xsd:string ;
+    schema:description "DoConA (Document Content and Citation Analysis Pipeline) is an open source, configurable and extensible Python tool to analyse the level of agreement between the citation network of a set of textual documents and the textual similarity of these documents."^^xsd:string ;
+    schema:name "docona"^^xsd:string ;
+    schema:operatingSystem "cross-platform"^^xsd:string ;
+    schema:url "https://github.com/MaastrichtU-IDS/docona"^^schema:URL ;
+    schema:version "1.0"^^xsd:string
+  ], [
+    a schema:CreativeWork ;
+    schema:description "Citation network and full text documents of each judgement by the Court of Justice of the European Union that was published publicly on the EUR-LEX website (https://eur-lex.europa.eu/homepage.html) up until December 2018"^^xsd:string ;
+    schema:name "ECJ case law and citation network"^^xsd:string ;
+    schema:url "https://doi.org/10.5281/zenodo.3926736"^^schema:URL ;
+    schema:version "2.0"^^xsd:string
+  ] ;
+  schema:keywords "case law"^^xsd:string, "court decisions"^^xsd:string, "text similarity"^^xsd:string, "network analysis"^^xsd:string ;
+  schema:license <https://www.gnu.org/licenses/agpl-3.0.txt> ;
+  schema:name "ECJ case law text similarity analysis"^^xsd:string ;
+  schema:publisher [
+    a schema:Person ;
+    schema:affiliation [
+      a schema:Organization ;
+      schema:logo [
+        a schema:ImageObject ;
+        schema:contentUrl <https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF>
+      ] ;
+      schema:name "Maastricht Law & Tech Lab"^^xsd:string ;
+      schema:url "https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"^^schema:URL
+    ] ;
+    schema:email "kody.moodley@maastrichtuniversity.nl"^^xsd:string ;
+    schema:familyName "Moodley"^^xsd:string ;
+    schema:givenName "Kody"^^xsd:string ;
+    schema:image <https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1583505301> ;
+    schema:jobTitle "Postdoctoral researcher"^^xsd:string ;
+    schema:name "Kody Moodley"^^xsd:string
+  ] ;
+  schema:temporalCoverage "2019-09-14/2020-07-01"^^xsd:string ;
+  schema:url <https://doi.org/10.5281/zenodo.4228652> ;
+  schema:version "v2.0"^^xsd:string .
